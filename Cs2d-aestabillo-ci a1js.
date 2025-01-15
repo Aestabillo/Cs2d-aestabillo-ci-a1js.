@@ -1,0 +1,44 @@
+// Student 1's Information
+let student1FirstName = "Juan";
+let student1MiddleName = "Gamos";
+let student1LastName = "Dela Cruz";
+let student1BirthDate = "January 1, 2001";
+let student1BirthplaceBarangay = "Upper Bonifacio";
+let student1BirthplaceCity = "Baguio City";
+let student1BirthplaceCountry = "Philippines";
+let student1BirthplaceZipCode = "2600";
+let student1AddressBarangay = "San Nicolas";
+let student1AddressCity = "Candon City";
+let student1AddressCountry = "Philippines";
+let student1AddressZipCode = "2710";
+let student1CourseYear = "Bachelor of Science in Computer Science";
+let student1DreamJob = "Software Engineer";
+
+
+// Student 2's Information (Replace with your classmate's data)
+let student2FirstName = "Jane";
+let student2MiddleName = "Doe";
+let student2LastName = "Smith";
+let student2BirthDate = "March 15, 2002";
+let student2BirthplaceBarangay = "Example Barangay";
+let student2BirthplaceCity = "Example City";
+let student2BirthplaceCountry = "Philippines";
+let student2BirthplaceZipCode = "12345";
+let student2AddressBarangay = "Another Barangay";
+let student2AddressCity = "Another City";
+let student2AddressCountry = "Philippines";
+let student2AddressZipCode = "67890";
+let student2CourseYear = "Bachelor of Arts in English";
+let student2DreamJob = "Writer";
+
+
+// String concatenation to form sentences
+let student1Sentence = `${student1FirstName} ${student1MiddleName} ${student1LastName} was born on ${student1BirthDate} at ${student1BirthplaceBarangay}, ${student1BirthplaceCity}, ${student1BirthplaceCountry} ${student1BirthplaceZipCode}, and currently living at ${student1AddressBarangay}, ${student1AddressCity}, ${student1AddressCountry} ${student1AddressZipCode}. ${student1FirstName.toLowerCase()} ${student1LastName.toLowerCase()} is taking up ${student1CourseYear} and dreams to be a ${student1DreamJob} after graduation.`;
+
+let student2Sentence = `${student2FirstName} ${student2MiddleName} ${student2LastName} was born on ${student2BirthDate} at ${student2BirthplaceBarangay}, ${student2BirthplaceCity}, ${student2BirthplaceCountry} ${student2BirthplaceZipCode}, and currently living at ${student2AddressBarangay}, ${student2AddressCity}, ${student2AddressCountry} ${student2AddressZipCode}. ${student2FirstName.toLowerCase()} ${student2LastName.toLowerCase()} is taking up ${student2CourseYear} and dreams to be a ${student2DreamJob} after graduation.`;
+
+
+// Print the sentences
+console.log(student1Sentence);
+console.log(student2Sentence);
+
