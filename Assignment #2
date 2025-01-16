@@ -1,0 +1,12 @@
+// Example of working with objects and loops
+
+const students = [
+  { name: "Alice", grade: 85 },
+  { name: "Bob", grade: 92 },
+  { name: "Charlie", grade: 78 },
+];
+
+for (let i = 0; i < students.length; i++) {
+  const student = students[i];
+  console.log(`${student.name} got a grade of ${student.grade}`);
+}
